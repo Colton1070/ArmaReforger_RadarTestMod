@@ -1,0 +1,27 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  FrameWidgetClass "{628448A2EC4A4102}" {
+   Name "Frame0"
+   Slot FrameWidgetSlot "{628448A2EC4A41DE}" {
+    OffsetLeft 0
+    OffsetTop 0
+    SizeX 720
+    OffsetRight -720
+    SizeY 720
+    OffsetBottom -720
+   }
+  }
+  RTTextureWidgetClass "{628448A29CFC7756}" {
+   Name "RTTexture0"
+   Slot FrameWidgetSlot "{628448A29CFC77CD}" {
+    OffsetLeft 0
+    OffsetTop 0
+    SizeX 720
+    OffsetRight -720
+    SizeY 720
+    OffsetBottom -720
+   }
+  }
+ }
+}

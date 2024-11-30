@@ -1,0 +1,55 @@
+$grp Vehicle : "{7CF0A16FA3AED298}Prefabs/Vehicles/Helicopters/H47/H47_base.et" {
+ H47_base1 {
+  components {
+   AG0_RadarRecieverTransmitterComponent "{628448A6982C0CDB}" {
+    m_fMaxRange 1000
+    m_eFieldOfView FOV_30
+   }
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    additionalActions {
+     AG0_MFD3_Power "{628448A73822DB73}" {
+      ParentContextList {
+       "mfd3"
+      }
+      UIInfo SCR_ActionContextUIInfo "{628448A701BD35F6}" {
+      }
+     }
+     AG0_ToggleRadarEmitter "{628448A706B37BB8}" {
+      ParentContextList {
+       "mfd3"
+      }
+      UIInfo SCR_ActionContextUIInfo "{628448A70B5D4624}" {
+      }
+     }
+    }
+   }
+  }
+  coords 123.742 1 139.252
+ }
+ H47_base2 {
+  components {
+   AG0_RadarRecieverTransmitterComponent "{628448A6E8BA3209}" {
+    m_eRadarMode DETECT_ONLY
+   }
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    additionalActions {
+     AG0_MFD3_Power "{628448A6D85A689B}" {
+      ParentContextList {
+       "mfd3"
+      }
+      UIInfo SCR_ActionContextUIInfo "{628448A7220841F8}" {
+      }
+     }
+     AG0_ToggleRadarEmitter "{628448A72713DC45}" {
+      ParentContextList {
+       "mfd3"
+      }
+      UIInfo SCR_ActionContextUIInfo "{628448A721E3642A}" {
+      }
+     }
+    }
+   }
+  }
+  coords 119.023 1 214.838
+ }
+}
